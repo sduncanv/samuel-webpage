@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Mulish:wght@200&display=swap');
+
+:root {
+    --back-input-color:  #d1d1d1;
+    --blue-cian: #00e1ff;
+    --mulish-font: "Mulish", sans-serif;
+    --text-color: #1a1c20;
+    --link-color: #ffffff;
+    --background-color: #eeeff1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #bfd6c4;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-logo a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-menu a {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0.625rem;
+}
+
+.navbar-menu a:hover {
+    color: var(--link-color);
+    transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 1023px) {
+    .navbar-logo a {
+        font-size: 1.25rem;
+    }
+
+    .navbar-menu a {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-logo a {
+        font-size: 1.25rem;
+    }
+
+    .navbar-menu a {
+        font-size: 1.1rem;
+        margin: 0 0.375rem;
+    }
+}
