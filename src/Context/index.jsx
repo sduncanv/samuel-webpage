@@ -2,7 +2,7 @@ import { createContext } from 'react'
 
 export const WebPageProvider = createContext()
 
-export const StoreProvider = ({children}) => {
+export const WebProvider = ({children}) => {
 
     return (
         <WebPageProvider.Provider value={{}}>

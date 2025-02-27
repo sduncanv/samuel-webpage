@@ -10,8 +10,8 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-menu">
-                <a href="#projects-section">Projects</a>
-                <a href="#skills-section">Skills</a>
+                <a href="">Projects</a>
+                <a href="">Skills</a>
                 {/* <a href="#about-section">About</a> */}
                 {/* <a href="#leave-message-section">Leave a Message!</a> */}
             </div>
