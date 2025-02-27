@@ -5,40 +5,68 @@ function Home() {
 
     return (
         <Layout>
-            <section id="about-section">
-                <h2>Hey World, I'm Samuel!</h2>
-                <div className="headshot">
+            <section id="about-me">
+                <h2>Ey World, I'm Samuel!</h2>
+                <div className="profile-picture">
                     <picture>
                         <source
-                            // srcset="public/webp/perfil.webp"
                             srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689604/gfcnvdxputtxar1dkn8w.png"
                             type="image/webp"/>
-                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689604/gfcnvdxputtxar1dkn8w.png" alt="perfil"/>
+                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689604/gfcnvdxputtxar1dkn8w.png" alt="profile"/>
                     </picture>
                 </div>
-                <div className="bio">
+                <div className="abstract">
                     <p>
-                        We help your brand thrive in the virtual world.
-                        Through immersive digital spaces and tailored 3D
-                        experiences, we make it easy for you to connect with
-                        new audiences, boost engagement, and stay relevant in a
-                        shifting digital landscape.!
+                        Hello! I'm Samuel Duncan, a mechatronics engineer passionate about automation
+                        and technological solutions development.
                     </p>
                     <br/>
                     <p>
-                        Outside of career and academics, I enjoy playing volleyball,
-                        making videos, watching anime, and lifting weights! immersive digital spaces and tailored 3D
-                        experiences, we make it easy for you to connect with
-                        new audiences, boost enga
+                        I have 1.5 years of experience as a backend developer at Red5G, Barranquilla,
+                        where I have worked with Python and PHP, implementing microservices in
+                        AWS (Lambdas, S3, SQS, SNS, CloudWatch, among others) and developing scalable
+                        backend architectures.
+                    </p>
+                    <br/>
+                    <p>
+                        I was also a research assistant at Purdue University, USA, for six months, where
+                        I developed an application in Unity and C# for Microsoft HoloLens 2, enabling the
+                        control of fluid power equipment through mixed reality. Additionally, I contributed
+                        to the development and maintenance of Python servers for managing electronic components.
+                    </p>
+                    <br/>
+                    <p>
+                        Before specializing in software development and automation, I gained experience in
+                        electromechanical maintenance, working as a technician and technologist in
+                        electromechanical systems. I performed maintenance on mechanical and electrical
+                        machinery and operated machining processes.
+                    </p>
+                    <br />
+                    <div className="div-tech-skills">
+                        <h3>Technical Skills:</h3>
+                        <ul>
+                            <li>🔹 <span className="hide-on-small">Programming languages: </span> Python, PHP, C++, JavaScript</li>
+                            <li>🔹 <span className="hide-on-small">Frameworks and technologies: </span>Flask, FastAPI, ReactJS</li>
+                            <li>🔹 <span className="hide-on-small">DevOps and tools: </span>AWS (Lambdas, S3, SQS, SNS), Git, Bash/Zsh, Linux</li>
+                            <li>🔹 <span className="hide-on-small">Automation and hardware: </span>electronics, robotics, microcontrollers</li>
+                        </ul>
+                    </div>
+                    <br />
+                    <p>
+                        My goal is to continue growing in software development and automation, exploring
+                        how technology can optimize processes and enhance the interaction between systems
+                        and users.
+                    </p>
+                    <br />
+                    <p>
+                        Would you like to collaborate or learn more about my work? Feel free to reach
+                        out! <a href="mailto:samuelduncanv@gmail.com" className="email-link">samuelduncanv@gmail.com</a>
                     </p>
                 </div>
-                <div className="social-links">
+                <div className="social-media">
                     <a href="https://www.instagram.com/zamuelduncan/" target="_blank">
                         <i className="fa-brands fa-instagram"></i>
                     </a>
-                    {/* <a href="https://www.youtube.com/" target="_blank">
-                        <i className="fa-brands fa-square-youtube"></i>
-                    </a> */}
                     <a href="https://www.linkedin.com/in/sduncanv/" target="_blank">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
@@ -47,20 +75,18 @@ function Home() {
                     </a>
                 </div>
             </section>
-            <div className="divider"></div>
-            <section id="projects-section">
+            <section id="projects">
                 <h2>Projects</h2>
-
-                <div className="project-subsection">
+                <div className="projects-sub">
                     <div
                     // #swiperRef=""
-                    className="swiper card-swiper">
+                    className="swiper">
                         <div className="swiper-wrapper">
-                            <div className="swiper-slide">
+                            <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -74,11 +100,11 @@ function Home() {
                                     </p>
                                 </a>
                             </div>
-                            <div className="swiper-slide">
+                            <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -92,11 +118,11 @@ function Home() {
                                     </p>
                                 </a>
                             </div>
-                            <div className="swiper-slide">
+                            <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -110,11 +136,11 @@ function Home() {
                                     </p>
                                 </a>
                             </div>
-                            <div className="swiper-slide">
+                            <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -128,11 +154,11 @@ function Home() {
                                     </p>
                                 </a>
                             </div>
-                            <div className="swiper-slide">
+                            <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -150,10 +176,9 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <div className="divider"></div>
-            <section id="skills-section">
+            <section id="my-skills">
                 <h2>Skills</h2>
-                <div className="skills-container">
+                <div className="my-skills-container">
                     <i className="fa-brands fa-python"></i>
                     <i className="fa-brands fa-git-alt"></i>
                     <i className="fa-brands fa-github-alt"></i>
@@ -163,9 +188,8 @@ function Home() {
                     <i className="fa-brands fa-css3-alt"></i>
                 </div>
             </section>
-            <div className="divider"></div>
             {/*
-            <section id="leave-message-section">
+            <section id="">
                 <h2>Leave a Message!</h2>
                 <p>coming soon :</p>
             </section>

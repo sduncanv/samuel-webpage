@@ -1,5 +1,3 @@
-/* General Section Styles */
-
 section {
     display: flex;
     flex-direction: column;
@@ -9,8 +7,6 @@ section {
     gap: 1rem;
     min-height: 70vh;
 }
-
-/* Section Heading Styles */
 
 section h2 {
     font-size: 3rem;
@@ -35,11 +31,11 @@ section h2::after {
     border-radius: 2px;
 }
 
-/* About Section */
+/* About me */
 
-.headshot {
-    width: 20rem;
-    height: 20rem;
+.profile-picture {
+    width: 18rem;
+    height: 18rem;
     overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -47,7 +43,7 @@ section h2::after {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.headshot img {
+.profile-picture img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -55,89 +51,112 @@ section h2::after {
     transition: transform 0.4s ease;
 }
 
-.headshot img:hover {
+.profile-picture img:hover {
     transform: scale(1.2);
 }
 
-.bio {
+.abstract {
     font-family: var(--font-inter);
     margin-bottom: 2rem;
     padding: 0 2rem;
     max-width: 56.25rem;
 }
 
-.bio p {
-    font-size: 28px;
-    font-weight: 450;
+.abstract p {
+    font-size: 20px;
+    font-weight: 350;
     text-align: justify;
 }
 
-.social-links {
+.div-tech-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.div-tech-skills h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 350;
+    font-size: 20px;
+}
+
+.email-link {
+    color: #29b86a;
+    font-weight: 350;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.social-media {
     font-size: 2.5rem;
 }
 
-.social-links a {
+.social-media a {
     margin: 0 0.75rem;
 }
 
-.social-links a i {
+.social-media a i {
     transition: transform 0.3s, color 0.3s;
 }
 
-.social-links a:hover i {
+.social-media a:hover i {
     color: black;
     transform: scale(1.2);
 }
 
-.social-links i {
+.social-media i {
     color: #3d5b4b  ;
     font-weight: 500;
 }
 
-/* Projects Section */
+/* Projects */
 
-#projects-section {
+#projects {
     width: 100%;
 }
 
-#projects-section h2 {
+#projects h2 {
     margin-bottom: 1rem;
     font-size: 2.7rem;
     font-weight: 700;
 }
 
-#projects-section h3 {
+#projects h3 {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     text-decoration: underline;
 }
 
-.project-subsection {
+.projects-sub {
     width: 100%;
     margin-bottom: 2rem;
 }
-
-/* Cards Swiper */
 
 .swiper {
     width: 100%;
     overflow-x: auto !important;
 }
 
-.swiper-slide {
+.project-slide {
     width: 400px !important;
     height: 400px;
-    /* background-color: blue; */
 }
 
-.swiper-slide > a {
+.project-slide > a {
     display: block;
     transform: scale(0.9);
     width: 400px;
     height: 400px;
     text-decoration: none;
-    /* background-color: green; */
 }
 
 .swiper-wrapper {
@@ -189,58 +208,37 @@ section h2::after {
     text-align: justify;
 }
 
-/* Skills Section */
+/* My Skills */
 
-#skills-section {
+#my-skills {
     min-height: 30vh;
     padding: 2rem 2rem 2rem;
     width: 100%;
 }
 
-#skills-section h2 {
+#my-skills h2 {
     margin-bottom: 1rem;
     font-size: 2.7rem;
     font-weight: 700;
 }
 
-.skills-container {
+.my-skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
 
-.skills-container i {
+.my-skills-container i {
     font-size: 3rem;
     color: #3d5b4b;
     transition: transform 0.3s ease, color 0.3s ease;
     margin: 1rem 0;
 }
 
-.skills-container i:hover {
+.my-skills-container i:hover {
     transform: scale(1.2);
     color: black;
-}
-
-/* Leave a Message Section */
-
-#leave-message-section {
-    min-height: 50vh;
-    justify-content: center;
-    gap: 1rem;
-}
-
-#leave-message-section h2 {
-    margin-bottom: 1rem;
-    font-size: 2.75rem;
-    font-weight: 700;
-}
-
-#leave-message-section p {
-    font-size: 1.25rem;
-    color: #555;
-    max-width: 600px;
-    line-height: 1.6;
 }
 
 footer {
@@ -270,34 +268,50 @@ footer {
         height: 4px;
     }
 
-    .headshot {
-        width: 16rem;
-        height: 16rem;
+    .profile-picture {
+        width: 14rem;
+        height: 14rem;
     }
 
-    .bio {
+    .abstract {
         margin-bottom: 1rem;
     }
     
-    .bio p {
-        font-size: 1.3rem;
-        font-weight: 400;
+    .abstract p {
+        font-size: 15px;
+        font-weight: 350;
+    }
+    
+    .div-tech-skills ul {
+        font-size: 15px;
+        font-weight: 350;
+        text-align: start;
+    }
+    
+    .div-tech-skills h3 {
+        font-size: 15px;
+        font-weight: 350;
     }
 
-    .social-links {
+    .email-link {
+        font-size: 15px;
+        font-weight: 350;
+    }
+
+    .social-media {
         font-size: 2rem;
     }
 
-    #projects-section h2 {
+    #projects h2 {
         font-size: 36px;
     }
     
-    .swiper-slide {
+    .project-slide {
         width: 240px !important;
         height: 340px;
     }
     
-    .swiper-slide > a {
+    .project-slide > a {
         width: 240px;
         height: 340px;
     }
@@ -320,20 +334,20 @@ footer {
         padding: 0 5px 0 5px;
     }
 
-    .project-subsection {
+    .projects-sub {
         margin-bottom: 1rem;
     }
 
-    #skills-section {
+    #my-skills {
         min-height: 20vh;
         padding: 1rem 1rem 1rem;
     }
 
-    #skills-section h2 {
+    #my-skills h2 {
         font-size: 36px;
     }
 
-    .skills-container i {
+    .my-skills-container i {
         font-size: 32px;
         margin: 10px 0;
     }
@@ -354,30 +368,45 @@ footer {
         height: 4px;
     }
     
-    .headshot {
-        width: 12rem;
-        height: 12rem;
+    .profile-picture {
+        width: 10rem;
+        height: 10rem;
     }
 
-    .bio {
+    .abstract {
         padding: 0 1rem;
     }
 
-    .bio p {
-        font-size: 0.9rem;
-        font-weight: 380;
+    .abstract p {
+        font-size: 12px;
     }
 
-    .social-links {
+    .div-tech-skills ul {
+        font-size: 12px;
+    }
+    
+    .div-tech-skills h3 {
+        font-size: 12px;
+    }
+
+    .email-link {
+        font-size: 12px;
+    }
+
+    .hide-on-small {
+        display: none;
+    }
+
+    .social-media {
         font-size: 1.8rem;
     }
 
-    .swiper-slide {
+    .project-slide {
         width: 220px !important;
         height: 320px;
     }
     
-    .swiper-slide > a {
+    .project-slide > a {
         width: 220px;
         height: 320px;
     }
@@ -387,24 +416,24 @@ footer {
         height: 7rem;
     }
 
-    #skills-section {
+    #my-skills {
         min-height: 10vh;
         padding: 1rem 1rem 1rem;
     }
 
-    #skills-section h2 {
+    #my-skills h2 {
         font-size: 32px;
     }
 
-    #projects-section h2 {
+    #projects h2 {
         font-size: 32px;
     }
 
-    .skills-container {
+    .my-skills-container {
         gap: 15px;
     }
 
-    .skills-container i {
+    .my-skills-container i {
         font-size: 25px;
         margin: 8px 0;
     }

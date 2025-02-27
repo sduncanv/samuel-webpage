@@ -12,8 +12,8 @@ const Navbar = () => {
             <div className="navbar-menu">
                 <a href="">Projects</a>
                 <a href="">Skills</a>
-                {/* <a href="#about-section">About</a> */}
-                {/* <a href="#leave-message-section">Leave a Message!</a> */}
+                {/* <a href="#about-me">About</a> */}
+                {/* <a href="#">Leave a Message!</a> */}
             </div>
 
         </nav>
