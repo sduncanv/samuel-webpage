@@ -6,7 +6,7 @@ function Home() {
     return (
         <Layout>
             <section id="about-me">
-                <h2>Ey World, I'm Samuel!</h2>
+                <h2 className='section-h2'>Ey World, I'm Samuel!</h2>
                 <div className="profile-picture">
                     <picture>
                         <source
@@ -76,7 +76,7 @@ function Home() {
                 </div>
             </section>
             <section id="projects">
-                <h2>Projects</h2>
+                <h2 className='section-h2'>Projects</h2>
                 <div className="projects-sub">
                     <div
                     // #swiperRef=""
@@ -177,7 +177,7 @@ function Home() {
                 </div>
             </section>
             <section id="my-skills">
-                <h2>Skills</h2>
+                <h2 className='section-h2'>Skills</h2>
                 <div className="my-skills-container">
                     <i className="fa-brands fa-python"></i>
                     <i className="fa-brands fa-git-alt"></i>
@@ -186,6 +186,56 @@ function Home() {
                     <i className="fa-brands fa-react"></i>
                     <i className="fa-brands fa-js"></i>
                     <i className="fa-brands fa-css3-alt"></i>
+                </div>
+            </section>
+            <section id='education'>
+                <h2 className='section-h2'>Education</h2>
+                <div>
+                    <div className='education-slide'>
+                        <h4>2025</h4>
+                        <div>
+                            <h3>Mechatronics Engineer</h3>
+                            <p>
+                                Responsible for designing, developing, and integrating automated 
+                                systems by combining mechanics, electronics, and software. Specialized 
+                                in optimizing industrial processes, maintaining intelligent systems, 
+                                and implementing innovative technological solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='education-slide'>
+                        <h4>2023</h4>
+                        <div>
+                            <h3>Technologist in Electromechanical Systems Management</h3>
+                            <p>
+                                Responsible for assisting in maintenance, supervising processes in 
+                                metalworking and power generation, and supporting the design of 
+                                electromechanical systems.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='education-slide'>
+                        <h4>2022</h4>
+                        <div>
+                            <h3>Course in Web Development Technologies</h3>
+                            <p>
+                                Focused on the use of essential tools and frameworks for building 
+                                web applications, covering frontend and backend development, database 
+                                management, and best coding practices.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='education-slide'>
+                        <h4>2021</h4>
+                        <div>
+                            <h3>Professional Technician in Electromechanical Maintenance</h3>
+                            <p>
+                                Responsible for operating machining processes and assisting in the 
+                                maintenance, assembly, and repair of mechanical, electrical, and 
+                                electromechanical systems.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             {/*
