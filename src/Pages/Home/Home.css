@@ -1,3 +1,4 @@
+
 /* General Section Styles */
 
 section {
@@ -5,8 +6,8 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 5rem 1rem;
-    gap: 2rem;
+    padding: 3rem 1rem 2rem;
+    gap: 1rem;
     min-height: 80vh;
 }
 
@@ -19,14 +20,16 @@ section h2 {
     margin-bottom: 1rem;
     letter-spacing: 1px;
     position: relative;
+    font-family: var(--font-kode-mono);
+    text-transform: uppercase;
 }
 
 section h2::after {
     content: '';
     position: absolute;
-    width: 100px;
-    height: 4px;
-    background-color: #bfd6c4;
+    width: 150px;
+    height: 5px;
+    background-color: var(--hover-color);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -40,9 +43,9 @@ section h2::after {
     height: 20rem;
     overflow: hidden;
     margin-top: 1rem;
-    margin-bottom: 37px;
+    margin-bottom: 1rem;
     border-radius: 50%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(144, 255, 198);
 }
 
 .headshot img {
@@ -58,22 +61,22 @@ section h2::after {
 }
 
 .bio {
+    font-family: var(--font-inter);
     margin-bottom: 2rem;
     padding: 0 2rem;
     max-width: 56.25rem;
 }
 
 .bio p {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 1.8rem;
+    font-weight: 450;
 }
 
 .social-links {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
 }
 
 .social-links a {
-    padding: 0;
     margin: 0 0.75rem;
 }
 
@@ -82,12 +85,12 @@ section h2::after {
 }
 
 .social-links a:hover i {
-    color: #a5d6b0;
+    color: black;
     transform: scale(1.2);
 }
 
 .social-links i {
-    color: #588061;
+    color: #3d5b4b  ;
     font-weight: 500;
 }
 
@@ -99,7 +102,7 @@ section h2::after {
 
 #projects-section h2 {
     margin-bottom: 1rem;
-    font-size: 2.75rem;
+    font-size: 2.7rem;
     font-weight: 700;
 }
 
@@ -112,7 +115,17 @@ section h2::after {
 
 .project-subsection {
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.projects-scroll-container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1600px;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    margin: 0 auto;
 }
 
 /* Cards Swiper */
@@ -124,20 +137,25 @@ section h2::after {
 
 .swiper-slide {
     width: 272px !important;
-    height: 375.75px;
+    height: 400px;
 }
 
 .swiper-slide > a {
     display: block;
     transform: scale(0.9);
     width: 272px;
-    height: 375.75px;
+    height: 400px;
+    text-decoration: none;
+}
+
+.swiper-wrapper {
+    display: flex;
 }
 
 .project-box {
     border: 1px solid #d7dbd8;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -155,31 +173,30 @@ section h2::after {
 }
 
 .project-box h4 {
+    color: black;
+    font-family: var(--font-inter);
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
 }
 
-.project-box h5 {
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-}
-
 .project-box p {
+    font-family: var(--font-inter);
     font-size: 1rem;
-    font-weight: 300;
-    color: #494a4a;
+    font-weight: 400;
+    color: black;
 }
 
 /* Skills Section */
 
 #skills-section {
     min-height: 30vh;
+    padding: 2rem 2rem 2rem;
 }
 
 #skills-section h2 {
     margin-bottom: 1rem;
-    font-size: 2.75rem;
+    font-size: 2.7rem;
     font-weight: 700;
 }
 
@@ -192,14 +209,14 @@ section h2::after {
 
 .skills-container i {
     font-size: 3rem;
-    color: #588061;
+    color: #3d5b4b;
     transition: transform 0.3s ease, color 0.3s ease;
     margin: 1rem 0;
 }
 
 .skills-container i:hover {
     transform: scale(1.2);
-    color: #a5d6b0;
+    color: black;
 }
 
 /* Leave a Message Section */
@@ -233,15 +250,107 @@ footer {
 }
 
 @media (max-width: 1023px) {
+
+    section {
+        padding: 2rem 1rem 0.8rem;
+    }
+    
+    section h2 {
+        font-size: 2rem;
+    }
+    
+    section h2::after {
+        width: 110px;
+        height: 4px;
+    }
+
     .headshot {
-        width: 18rem;
-        height: 18rem;
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .bio {
+        margin-bottom: 1rem;
+    }
+    
+    .bio p {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .social-links {
+        font-size: 2rem;
+    }
+    
+    .swiper-slide {
+        width: 240px !important;
+        height: 340px;
+    }
+    
+    .swiper-slide > a {
+        width: 240px;
+        height: 340px;
+    }
+    
+    .project-box img {
+        width: 90%;
+        height: 10rem;
+    }
+    
+    .project-box h4 {
+        font-size: 1rem;
+    }
+
+    .project-box p {
+        font-size: 0.8rem;
+    }
+
+    .project-subsection {
+        margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 600px) {
+
+    section {
+        padding: 1rem 1rem 0.8rem;
+    }
+    
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    section h2::after {
+        width: 100px;
+        height: 4px;
+    }
+    
     .headshot {
-        width: 16rem;
-        height: 16rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .bio p {
+        font-size: 0.9rem;
+        font-weight: 380;
+    }
+
+    .social-links {
+        font-size: 1.8rem;
+    }
+
+    .swiper-slide {
+        width: 220px !important;
+        height: 320px;
+    }
+    
+    .swiper-slide > a {
+        width: 220px;
+        height: 320px;
+    }
+    
+    .project-box img {
+        width: 85%;
+        height: 8rem;
     }
 }

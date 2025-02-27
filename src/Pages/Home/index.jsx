@@ -16,13 +16,16 @@ function Home() {
                 </div>
                 <div className="bio">
                     <p>
-                        Hey! I'm Samuel, a recent UChicago graduate who's incredibly excited about software development and UX design.
-                        with a background in computer science and biology, I'm well equipped with a technical skillset and an eagerness
-                        to experiment!
+                        We help your brand thrive in the virtual world.
+                        Through immersive digital spaces and tailored 3D
+                        experiences, we make it easy for you to connect with
+                        new audiences, boost engagement, and stay relevant in a
+                        shifting digital landscape.!
                     </p>
                     <br/>
                     <p>
-                        Outside of career and academics, I enjoy playing volleyball, making videos, watching anime, and lifting weights!
+                        Outside of career and academics, I enjoy playing volleyball,
+                        making videos, watching anime, and lifting weights!
                     </p>
                 </div>
                 <div className="social-links">
@@ -45,7 +48,7 @@ function Home() {
                 <h2>Projects</h2>
 
                 <div className="project-subsection">
-                    <h3>Software</h3>
+                    {/* <h3>Software</h3> */}
                     <div
                     // #swiperRef=""
                     className="swiper card-swiper">
@@ -56,15 +59,20 @@ function Home() {
                                         <source srcset="public/webp/floppy-fish.webp" type="image/webp" />
                                         <img src="public/floppy-fish.png" alt="Floppy Fish" />
                                     </picture>
-                                    <h4>Floppy Fish</h4>
-                                    <h5><em>Java</em></h5>
-                                    <p>Floppy Fish is a spinoff of Flappy Bird built in Java. Instead of gravity pulling the bird down, the buoyancy of the water pushes the fish up.</p>
+                                    <h4>First Project</h4>
+                                    {/* <h5><em>Java</em></h5> */}
+                                    <p>
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots in a piece of classical Latin literature from 45 BC, making it over
+                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots
+                                    </p>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="project-subsection">
+                {/* <div className="project-subsection">
                     <h3>Design</h3>
                     <div
                     // #swiperRef=""
@@ -83,7 +91,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             <div className="divider"></div>
             <section id="skills-section">
@@ -101,10 +109,10 @@ function Home() {
                 </div>
             </section>
             <div className="divider"></div>
-            <section id="leave-message-section">
+            {/* <section id="leave-message-section">
                 <h2>Leave a Message!</h2>
                 <p>coming soon :</p>
-            </section>
+            </section> */}
             <footer>
                 <p>&copy; <span id="year"></span> Samuel Duncan. All Rights Reserved.</p>
             </footer>
