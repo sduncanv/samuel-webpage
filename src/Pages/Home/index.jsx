@@ -9,8 +9,11 @@ function Home() {
                 <h2>Hey World, I'm Samuel!</h2>
                 <div className="headshot">
                     <picture>
-                        <source srcset="public/webp/perfil.webp" type="image/webp"/>
-                        <img src="public/perfil.png" alt="headshot"/>
+                        <source
+                            // srcset="public/webp/perfil.webp"
+                            srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689604/gfcnvdxputtxar1dkn8w.png"
+                            type="image/webp"/>
+                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689604/gfcnvdxputtxar1dkn8w.png" alt="perfil"/>
                     </picture>
                 </div>
                 <div className="bio">
@@ -56,8 +59,8 @@ function Home() {
                             <div className="swiper-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
-                                        <source srcset="public/webp/robot.webp" type="image/webp" />
-                                        <img src="public/robot.png" alt="Floppy Fish" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -74,8 +77,8 @@ function Home() {
                             <div className="swiper-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
-                                        <source srcset="public/webp/robot.webp" type="image/webp" />
-                                        <img src="public/robot.png" alt="Floppy Fish" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -92,8 +95,8 @@ function Home() {
                             <div className="swiper-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
-                                        <source srcset="public/webp/robot.webp" type="image/webp" />
-                                        <img src="public/robot.png" alt="Floppy Fish" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -110,8 +113,8 @@ function Home() {
                             <div className="swiper-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
-                                        <source srcset="public/webp/robot.webp" type="image/webp" />
-                                        <img src="public/robot.png" alt="Floppy Fish" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
@@ -128,8 +131,8 @@ function Home() {
                             <div className="swiper-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
-                                        <source srcset="public/webp/robot.webp" type="image/webp" />
-                                        <img src="public/robot.png" alt="Floppy Fish" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Floppy Fish" />
                                     </picture>
                                     <div>
                                         <h4>First Project</h4>
