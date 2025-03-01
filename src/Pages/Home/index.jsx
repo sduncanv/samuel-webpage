@@ -83,6 +83,23 @@ function Home() {
                     className="swiper">
                         <div className="swiper-wrapper">
                             <div className="project-slide">
+                                <a className="project-box" href="https://github.com/sduncanv/samuel-webpage" target="_blank">
+                                    <picture>
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740856406/q4noaaa1h6ekwcpijjgm.jpg" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740856406/q4noaaa1h6ekwcpijjgm.jpg" alt="Project image" />
+                                    </picture>
+                                    <div>
+                                        <h4>Personal Portfolio</h4>
+                                        <h4>February, 2025</h4>
+                                    </div>
+                                    <p>
+                                        This project showcases my personal portfolio, highlighting my summary, projects, 
+                                        skills, education, and social media links. It was built primarily with ReactJS, 
+                                        leveraging HTML, CSS, and JavaScript to create a responsive experience.
+                                    </p>
+                                </a>
+                            </div>
+                            {/* <div className="project-slide">
                                 <a href="https://github.com/sduncanv" target="_blank" className="project-box">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
@@ -99,79 +116,7 @@ function Home() {
                                     roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
                                     </p>
                                 </a>
-                            </div>
-                            <div className="project-slide">
-                                <a href="https://github.com/sduncanv" target="_blank" className="project-box">
-                                    <picture>
-                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
-                                    </picture>
-                                    <div>
-                                        <h4>First Project</h4>
-                                        <h4>February 27, 2025</h4>
-                                    </div>
-                                    <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots in a piece of classical Latin literature from 45 BC, making it over
-                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    </p>
-                                </a>
-                            </div>
-                            <div className="project-slide">
-                                <a href="https://github.com/sduncanv" target="_blank" className="project-box">
-                                    <picture>
-                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
-                                    </picture>
-                                    <div>
-                                        <h4>First Project</h4>
-                                        <h4>February 27, 2025</h4>
-                                    </div>
-                                    <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots in a piece of classical Latin literature from 45 BC, making it over
-                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    </p>
-                                </a>
-                            </div>
-                            <div className="project-slide">
-                                <a href="https://github.com/sduncanv" target="_blank" className="project-box">
-                                    <picture>
-                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
-                                    </picture>
-                                    <div>
-                                        <h4>First Project</h4>
-                                        <h4>February 27, 2025</h4>
-                                    </div>
-                                    <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots in a piece of classical Latin literature from 45 BC, making it over
-                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    </p>
-                                </a>
-                            </div>
-                            <div className="project-slide">
-                                <a href="https://github.com/sduncanv" target="_blank" className="project-box">
-                                    <picture>
-                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
-                                    </picture>
-                                    <div>
-                                        <h4>First Project</h4>
-                                        <h4>February 27, 2025</h4>
-                                    </div>
-                                    <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots in a piece of classical Latin literature from 45 BC, making it over
-                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    </p>
-                                </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

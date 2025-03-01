@@ -161,6 +161,8 @@ section {
 
 .swiper-wrapper {
     display: flex;
+    /* justify-content: flex-start;  No delete */
+    justify-content: center;
 }
 
 .project-box {
