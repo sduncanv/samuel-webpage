@@ -45,8 +45,8 @@ function Home() {
                     <div className="div-tech-skills">
                         <h3>Technical Skills:</h3>
                         <ul>
-                            <li>🔹 <span className="hide-on-small">Programming languages: </span> Python, PHP, C++, JavaScript</li>
-                            <li>🔹 <span className="hide-on-small">Frameworks and technologies: </span>Flask, FastAPI, ReactJS</li>
+                            <li>🔹 <span className="hide-on-small">Programming languages: </span> Python, Golang, JavaScript | NodeJS</li>
+                            <li>🔹 <span className="hide-on-small">Frameworks and technologies: </span>Flask, FastAPI, ReactJS, Revel</li>
                             <li>🔹 <span className="hide-on-small">DevOps and tools: </span>AWS (Lambdas, S3, SQS, SNS), Git, Bash/Zsh, Linux</li>
                             <li>🔹 <span className="hide-on-small">Automation and hardware: </span>electronics, robotics, microcontrollers</li>
                         </ul>
@@ -131,11 +131,25 @@ function Home() {
                     <i className="fa-brands fa-react"></i>
                     <i className="fa-brands fa-js"></i>
                     <i className="fa-brands fa-css3-alt"></i>
+                    <i className="fab fa-node"></i>
+                    <i className="fas fa-terminal"></i>
+                    <i className="fab fa-docker"></i>
                 </div>
             </section>
             <section id='education'>
                 <h2 className='section-h2'>Education</h2>
                 <div>
+                    <div className='education-slide'>
+                        <h4>2025</h4>
+                        <div>
+                            <h3>Golang Development</h3>
+                            <p>
+                            In this series of courses taken on Codecademy, I learned about web development with Golang. 
+                            I studied the use of data structures all the way through to building web servers. 
+                            I also learned how to use the Revel framework.
+                            </p>
+                        </div>
+                    </div>
                     <div className='education-slide'>
                         <h4>2025</h4>
                         <div>
