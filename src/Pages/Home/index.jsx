@@ -1,6 +1,7 @@
 import Layout from '../../Components/Layout'
 import './Home.css'
 
+
 function Home() {
 
     return (
@@ -46,9 +47,10 @@ function Home() {
                         <h3>Technical Skills:</h3>
                         <ul>
                             <li>🔹 <span className="hide-on-small">Programming languages: </span> Python, Golang, JavaScript | NodeJS</li>
-                            <li>🔹 <span className="hide-on-small">Frameworks and technologies: </span>Flask, FastAPI, ReactJS, Revel</li>
+                            <li>🔹 <span className="hide-on-small">Frameworks and technologies: </span>Flask, FastAPI, Revel</li>
                             <li>🔹 <span className="hide-on-small">DevOps and tools: </span>AWS (Lambdas, S3, SQS, SNS), Git, Bash/Zsh, Linux</li>
-                            <li>🔹 <span className="hide-on-small">Automation and hardware: </span>electronics, robotics, microcontrollers</li>
+                            <li>🔹 <span className="hide-on-small">Frontend tools: </span>RectJS, ViteJS, Chakra UI</li>
+                            <li>🔹 <span className="hide-on-small">Automation and hardware: </span>Electronics, robotics, microcontrollers</li>
                         </ul>
                     </div>
                     <br />
@@ -83,40 +85,40 @@ function Home() {
                     className="swiper">
                         <div className="swiper-wrapper">
                             <div className="project-slide">
-                                <a className="project-box" href="https://github.com/sduncanv/samuel-webpage" target="_blank">
+                                <a className="project-box" href="https://samuelduncan.netlify.app/" target="_blank">
                                     <picture>
                                         <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740856406/q4noaaa1h6ekwcpijjgm.jpg" type="image/webp" />
                                         <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740856406/q4noaaa1h6ekwcpijjgm.jpg" alt="Project image" />
                                     </picture>
                                     <div>
                                         <h4>Personal Portfolio</h4>
-                                        <h4>February, 2025</h4>
+                                        <h4>Feb, 2025</h4>
                                     </div>
                                     <p>
                                         This project showcases my personal portfolio, highlighting my summary, projects, 
                                         skills, education, and social media links. It was built primarily with ReactJS, 
-                                        leveraging HTML, CSS, and JavaScript to create a responsive experience.
+                                        leveraging HTML, CSS, and JavaScript to create a responsive experience. <a href="https://github.com/sduncanv/samuel-webpage" target="_blank">Github link</a>
                                     </p>
                                 </a>
                             </div>
-                            {/* <div className="project-slide">
-                                <a href="https://github.com/sduncanv" target="_blank" className="project-box">
+                            <div className="project-slide">
+                                <a className="project-box" href="https://store-app-duncan.netlify.app/" target="_blank">
                                     <picture>
-                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" type="image/webp" />
-                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1740689416/g0fadudoppa4u05s3o3c.webp" alt="Project image" />
+                                        <source srcSet="https://res.cloudinary.com/dntqwynta/image/upload/v1745982199/Captura_de_pantalla_2025-04-29_214703_lxl8ug.png" type="image/webp" />
+                                        <img src="https://res.cloudinary.com/dntqwynta/image/upload/v1745982199/Captura_de_pantalla_2025-04-29_214703_lxl8ug.png" alt="Project image" />
                                     </picture>
                                     <div>
-                                        <h4>First Project</h4>
-                                        <h4>February 27, 2025</h4>
+                                        <h4>Store Project</h4>
+                                        <h4>April, 2025</h4>
                                     </div>
                                     <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots in a piece of classical Latin literature from 45 BC, making it over
-                                    2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
-                                    roots 2000 years old. popular belief, Lorem Ipsum is not simply random text. It has
+                                        This project is a store application developed with ReactJS and Python. 
+                                        It allows users to create an account, add products to their cart, and 
+                                        manage their orders. The backend is built with Python, AWS and Mysql, 
+                                        while the frontend is developed using ReactJS. <a href="https://github.com/sduncanv/store-front" target="_blank">Github link</a>
                                     </p>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
